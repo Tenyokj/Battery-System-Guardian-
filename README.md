@@ -20,6 +20,24 @@ A lightweight macOS tray utility that monitors your battery, CPU, memory, disk, 
 
 ---
 
+### ⚙️ Installation
+1. Download the latest `.zip` file from the [Releases](../../releases) page.  
+2. Unzip it and drag **Battery & System Guardian.app** to your **Applications** folder.  
+3. Launch the app — it will appear as a small icon in your macOS menu bar.
+
+---
+
+### 🛠 If you see “App is damaged and can’t be opened”
+macOS sometimes marks downloaded apps as untrusted.  
+To fix this, simply run the following command in **Terminal**:
+
+```bash
+xattr -cr ~/Downloads/"Battery & System Guardian.app"
+
+or
+
+xattr -cr ~/Applications/"Battery & System Guardian.app"
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
