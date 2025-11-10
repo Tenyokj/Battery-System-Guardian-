@@ -2,8 +2,6 @@
 
 A lightweight macOS tray utility that monitors your battery, CPU, memory, disk, and network activity — all in one clean popup window.
 
-![Preview](preview.png)  
-*(You can add your own screenshot here)*
 
 ---
 
@@ -38,12 +36,15 @@ or
 
 xattr -cr ~/Applications/"Battery & System Guardian.app"
 
+```
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/tenyokj/battery-guardian.git
 cd battery-guardian
+```
 
 ### 2. Install dependencies
 npm install
