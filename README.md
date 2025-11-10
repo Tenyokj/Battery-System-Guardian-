@@ -19,7 +19,7 @@ A lightweight macOS tray utility that monitors your battery, CPU, memory, disk, 
 ---
 
 ### ⚙️ Installation
-1. Download the latest `.zip` file from the [Releases](../../releases) page.  
+1. Download the latest `.dmg` or `.zip` file from the [Releases](../../releases) page.  
 2. Unzip it and drag **Battery & System Guardian.app** to your **Applications** folder.  
 3. Launch the app — it will appear as a small icon in your macOS menu bar.
 
@@ -31,9 +31,9 @@ To fix this, simply run the following command in **Terminal**:
 
 ```bash
 xattr -cr ~/Downloads/"Battery & System Guardian.app"
-
+```
 or
-
+```bash
 xattr -cr ~/Applications/"Battery & System Guardian.app"
 
 ```
@@ -47,9 +47,13 @@ cd battery-guardian
 ```
 
 ### 2. Install dependencies
+```bash
 npm install
+```
 ## 3. Run in development mode
+```bash
 npm start
+```
 
 
 ⸻
@@ -57,7 +61,9 @@ npm start
 ## 🧱 Build as a macOS App
 
 ### To generate a .app (and .dmg installer):
+```bash
 npm run make
+```
 ### The built files will appear inside the out/make/ folder:
 
 out/make/Battery & System Guardian.app
