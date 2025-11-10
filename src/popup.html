@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Battery & System Guardian</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <!-- Left Column -->
+    <div class="left">
+      <div id="battery" class="item">
+        <h3>🔋 Battery Guardian</h3>
+        <p id="status">Loading...</p>
+        <div class="inputs">
+          <label>Min:</label>
+          <input id="min" type="number" value="25" />
+          <label>Max:</label>
+          <input id="max" type="number" value="80" />
+        </div>
+        <button id="save">Save</button>
+      </div>
+
+      <div id="memory" class="item">
+        <h3>💾 Memory</h3>
+        <pre id="memory-list">Loading...</pre>
+      </div>
+
+      <div id="sysOS" class="item">
+        <h3>🖥️ System & OS</h3>
+        <pre id="sysOS-list">Loading...</pre>
+      </div>
+
+      <div id="cpu" class="item">
+        <h3>🧠 CPU Info</h3>
+        <pre id="cpu-list">Loading...</pre>
+      </div>
+
+      <div id="network" class="item">
+        <h3>🌐 Network</h3>
+        <pre id="network-list">Loading...</pre>
+      </div>
+
+      <div id="graphics" class="item">
+        <h3>🎨 Graphics</h3>
+        <pre id="graphics-list">Loading...</pre>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right">
+      <div id="sysinfo" class="item">
+        <h3>🧩 Processes</h3>
+        <h4>Count: <span id="proccount"></span></h4>
+        <pre id="process-list">Loading...</pre>
+      </div>
+
+      <div id="storage" class="item">
+        <h3>💽 File System</h3>
+        <pre id="fs-list">Loading...</pre>
+      </div>
+
+      <div id="disk" class="item">
+        <h3>📀 Disk Activity</h3>
+        <pre id="disk-list">Loading...</pre>
+      </div>
+
+      <div class="duo">
+        <div id="users" class="item">
+          <h3>👤 Users</h3>
+          <pre id="users-list">Loading...</pre>
+        </div>
+
+        <div id="time" class="item">
+          <h3>🕒 System Time</h3>
+          <pre id="time-list">Loading...</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

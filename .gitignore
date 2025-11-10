@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+out/
+dist/
+build/
+
+# Electron Forge & Packaging
+*.zip
+*.dmg
+*.exe
+*.AppImage
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Cache
+.cache/
+.tmp/
